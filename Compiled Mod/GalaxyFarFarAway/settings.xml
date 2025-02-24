@@ -1,0 +1,73 @@
+<tacoTown>
+	<!--  Random galaxy? true/false-->
+		<shuffleGalaxies>true</shuffleGalaxies>
+	
+	<!--  Frequency of change? # of days, 1, 7, 3, etc. Whole Numbers only.-->
+		<shuffleInterval>1</shuffleInterval>
+
+	<!--  Galaxy Type? This setting will control which group of galxies to shuffle through. This setting requires shuffleGalaxies to be true -->
+		<galaxyType>all</galaxyType>
+		<!-- 
+			Each subgroup will show if you list a parent group. 
+			i.e., "colorful", will show galaxy2 as well as nebula1, however "spiral" will only show spiral1 through spiral5
+			
+			Possible values:
+				all
+				realistic
+				colorful
+				abstract
+				galaxy
+				nebula
+				spiral
+				galacticString
+			-->
+
+	<!--  Use only one Galaxy? This setting requires shuffleGalaxies to be false--> 
+		<galaxyName>nebula2</galaxyName>
+
+		<!-- 
+				Possible values:
+					Realistic:
+						BlueGreenNebula
+						BlueNebula
+						GreenNebula
+						ManyGalaxies
+						MilkyWayGalaxy
+						PinkGalaxyCollision
+						PinkNebula
+						PurpleGalaxy
+						RedOrangeNebula
+					Colorful:
+						Abstract:
+							bubble1
+							bubble2
+							chaos1
+							chaos2
+							chaos3
+							square1
+						Galaxy:
+							galaxy1
+							galaxy2
+							galaxy3
+							galaxy4
+							galaxy5
+							galaxy6
+						Nebula:
+							nebula1
+							nebula2
+							nebula3
+						Spiral:
+							spiral1
+							spiral2
+							spiral3
+							spiral4
+							spiral5
+						GalaticString:
+							string1
+							string2
+							string3
+							string4
+		-->
+
+	<!-- https://i.imgur.com/DQRZpvF.gif -->
+</tacoTown>
