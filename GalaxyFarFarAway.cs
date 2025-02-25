@@ -40,14 +40,16 @@ public class GalaxyFarFarAway : IModApi
         ReadXML();
         unityPath = PathBuild(cubeMap);
         //ModEvents.GameStartDone.RegisterHandler(GameStart);
-        if (!isInstantiated)
+        if (shuffleGalaxies)
         {
-            Log.Out("[GalaxyFarFarAway] Instantiating MonoBehaviour");
-            skyManagerObject = new GameObject("GFFAGalaxyManager");
-            skyManagerObject.AddComponent<MonoGFFA>();
-            isInstantiated = true;
+            if (!isInstantiated)
+            {
+                Log.Out("[GalaxyFarFarAway] Instantiating MonoBehaviour");
+                skyManagerObject = new GameObject("GFFAGalaxyManager");
+                skyManagerObject.AddComponent<MonoGFFA>();
+                isInstantiated = true;
+            }
         }
-
         ModEvents.WorldShuttingDown.RegisterHandler(WorldShuttingDown);
         Harmony harmony = new Harmony(base.GetType().ToString());
         harmony.PatchAll(Assembly.GetExecutingAssembly());
@@ -70,14 +72,11 @@ public class GalaxyFarFarAway : IModApi
 
     void WorldShuttingDown()
     {
-        if (shuffleGalaxies)
+        if (isInstantiated)
         {
-            if (isInstantiated)
-            {
-                Log.Out("[GalaxyFarFarAway] Deleting MonoBehaviour");
-                UnityEngine.Object.Destroy(skyManagerObject);
-                isInstantiated = false;
-            }
+            Log.Out("[GalaxyFarFarAway] Deleting MonoBehaviour");
+            UnityEngine.Object.Destroy(skyManagerObject);
+            isInstantiated = false;
         }
     }
     public static string PathBuild(string cubeMapName)

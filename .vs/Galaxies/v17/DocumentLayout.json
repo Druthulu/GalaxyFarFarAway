@@ -1,14 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\USER\\Desktop\\Galaxies\\",
+  "WorkspaceRootPath": "D:\\git\\GalaxyFarFarAway\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{76FA3AD6-ADDB-4362-A751-5DE95B45B67E}|GalaxyFarFarAway.csproj|C:\\Users\\USER\\Desktop\\Galaxies\\galaxyfarfaraway.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{76FA3AD6-ADDB-4362-A751-5DE95B45B67E}|GalaxyFarFarAway.csproj|solutionrelative:galaxyfarfaraway.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{76FA3AD6-ADDB-4362-A751-5DE95B45B67E}|GalaxyFarFarAway.csproj|D:\\git\\GalaxyFarFarAway\\monogffa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76FA3AD6-ADDB-4362-A751-5DE95B45B67E}|GalaxyFarFarAway.csproj|solutionrelative:monogffa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{76FA3AD6-ADDB-4362-A751-5DE95B45B67E}|GalaxyFarFarAway.csproj|c:\\users\\user\\desktop\\galaxies\\monogffa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{76FA3AD6-ADDB-4362-A751-5DE95B45B67E}|GalaxyFarFarAway.csproj|solutionrelative:monogffa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{76FA3AD6-ADDB-4362-A751-5DE95B45B67E}|GalaxyFarFarAway.csproj|d:\\git\\galaxyfarfaraway\\galaxyfarfaraway.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76FA3AD6-ADDB-4362-A751-5DE95B45B67E}|GalaxyFarFarAway.csproj|solutionrelative:galaxyfarfaraway.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,30 +18,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "MonoGFFA.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\Galaxies\\MonoGFFA.cs",
+              "DocumentMoniker": "D:\\git\\GalaxyFarFarAway\\MonoGFFA.cs",
               "RelativeDocumentMoniker": "MonoGFFA.cs",
-              "ToolTip": "C:\\Users\\USER\\Desktop\\Galaxies\\MonoGFFA.cs",
+              "ToolTip": "D:\\git\\GalaxyFarFarAway\\MonoGFFA.cs",
               "RelativeToolTip": "MonoGFFA.cs",
-              "ViewState": "AgIAAJUAAAAAAAAAAAAowNEAAAAGAAAAAAAAAA==",
+              "ViewState": "AgIAAI4AAAAAAAAAAAAgwMQAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-19T05:35:05.897Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "GalaxyFarFarAway.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\Galaxies\\GalaxyFarFarAway.cs",
+              "DocumentMoniker": "D:\\git\\GalaxyFarFarAway\\GalaxyFarFarAway.cs",
               "RelativeDocumentMoniker": "GalaxyFarFarAway.cs",
-              "ToolTip": "C:\\Users\\USER\\Desktop\\Galaxies\\GalaxyFarFarAway.cs",
+              "ToolTip": "D:\\git\\GalaxyFarFarAway\\GalaxyFarFarAway.cs",
               "RelativeToolTip": "GalaxyFarFarAway.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACgAAAAAAAAAAAAgwE8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-19T01:15:16.15Z",
               "EditorCaption": ""
