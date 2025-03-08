@@ -126,7 +126,7 @@ public class GalaxyFarFarAway : IModApi
                         {
                             try
                             {
-                                var result = xmlReader.ReadElementContentAsString().ToLower();
+                                var result = xmlReader.ReadElementContentAsString();
                                 if (galaxyTypeResults.Contains(result))
                                 {
                                     galaxyType = result;
@@ -160,7 +160,7 @@ public class GalaxyFarFarAway : IModApi
                         {
                             try
                             {
-                                var result = xmlReader.ReadElementContentAsString().ToLower();
+                                var result = xmlReader.ReadElementContentAsString();
                                 if (galaxyNameResults.Contains(result))
                                 {
                                     cubeMap = result;
