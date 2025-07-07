@@ -1,14 +1,20 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\git\\GalaxyFarFarAway\\",
+  "WorkspaceRootPath": "Z:\\Storage\\git\\GalaxyFarFarAway\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{76FA3AD6-ADDB-4362-A751-5DE95B45B67E}|GalaxyFarFarAway.csproj|D:\\git\\GalaxyFarFarAway\\galaxyfarfaraway.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|GalaxyFarFarAway||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76FA3AD6-ADDB-4362-A751-5DE95B45B67E}|GalaxyFarFarAway.csproj|Z:\\Storage\\git\\GalaxyFarFarAway\\galaxyfarfaraway.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{76FA3AD6-ADDB-4362-A751-5DE95B45B67E}|GalaxyFarFarAway.csproj|solutionrelative:galaxyfarfaraway.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{76FA3AD6-ADDB-4362-A751-5DE95B45B67E}|GalaxyFarFarAway.csproj|d:\\git\\galaxyfarfaraway\\monogffa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{76FA3AD6-ADDB-4362-A751-5DE95B45B67E}|GalaxyFarFarAway.csproj|z:\\storage\\git\\galaxyfarfaraway\\monogffa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{76FA3AD6-ADDB-4362-A751-5DE95B45B67E}|GalaxyFarFarAway.csproj|solutionrelative:monogffa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76FA3AD6-ADDB-4362-A751-5DE95B45B67E}|GalaxyFarFarAway.csproj|z:\\storage\\git\\galaxyfarfaraway\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|5e9a8ac2-4f34-4521-858f-4c248ba31532"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,30 +24,42 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "GalaxyFarFarAway",
+              "DocumentMoniker": "Z:\\Storage\\git\\GalaxyFarFarAway\\GalaxyFarFarAway.csproj",
+              "RelativeDocumentMoniker": "GalaxyFarFarAway.csproj",
+              "ToolTip": "Z:\\Storage\\git\\GalaxyFarFarAway\\GalaxyFarFarAway.csproj*",
+              "RelativeToolTip": "GalaxyFarFarAway.csproj*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-07-07T20:25:16.883Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "MonoGFFA.cs",
-              "DocumentMoniker": "D:\\git\\GalaxyFarFarAway\\MonoGFFA.cs",
+              "DocumentMoniker": "Z:\\Storage\\git\\GalaxyFarFarAway\\MonoGFFA.cs",
               "RelativeDocumentMoniker": "MonoGFFA.cs",
-              "ToolTip": "D:\\git\\GalaxyFarFarAway\\MonoGFFA.cs",
+              "ToolTip": "Z:\\Storage\\git\\GalaxyFarFarAway\\MonoGFFA.cs",
               "RelativeToolTip": "MonoGFFA.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAALAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAP0AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-19T05:35:05.897Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "GalaxyFarFarAway.cs",
-              "DocumentMoniker": "D:\\git\\GalaxyFarFarAway\\GalaxyFarFarAway.cs",
+              "DocumentMoniker": "Z:\\Storage\\git\\GalaxyFarFarAway\\GalaxyFarFarAway.cs",
               "RelativeDocumentMoniker": "GalaxyFarFarAway.cs",
-              "ToolTip": "D:\\git\\GalaxyFarFarAway\\GalaxyFarFarAway.cs",
+              "ToolTip": "Z:\\Storage\\git\\GalaxyFarFarAway\\GalaxyFarFarAway.cs",
               "RelativeToolTip": "GalaxyFarFarAway.cs",
-              "ViewState": "AgIAAFYAAAAAAAAAAAAwwKIAAABTAAAAAAAAAA==",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAgwNAAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-19T01:15:16.15Z",
               "EditorCaption": ""

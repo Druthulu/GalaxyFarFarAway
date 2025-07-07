@@ -50,7 +50,7 @@ public class GalaxyFarFarAway : IModApi
                 isInstantiated = true;
             }
         }
-        ModEvents.WorldShuttingDown.RegisterHandler(WorldShuttingDown);
+        //ModEvents.WorldShuttingDown.RegisterHandler(WorldShuttingDown);
         Harmony harmony = new Harmony(base.GetType().ToString());
         harmony.PatchAll(Assembly.GetExecutingAssembly());
     }
